@@ -1,0 +1,29 @@
+ <div className="container mt-4">
+      <div className="card">
+        <div className="card-body">
+          <div className="row">
+            <div className="col-md-6 col-lg-4 mb-4">
+              <h5>Rentabilité</h5>
+              {renderRatioRow('Free Cash Flow Margin 5 ans', infos.fcf_margin_five_year)}
+            </div>
+            <div className="col-md-6 col-lg-4 mb-4">
+              <h5>Santé</h5>
+              {renderRatioRow('Debt to Equity Ratio', infos.debt_equity)}
+              {renderRatioRow('Payout Ratio', infos.ratio_payout)}
+            </div>
+            <div className="col-md-6 col-lg-4 mb-4">
+              <h5>Dividende</h5>
+              {renderRatioRow('Croissance 1 AN', infos.croissance_annualisee)}
+              {renderRatioRow('Croissance (Moy 5A)', infos.croissance_moyenne)}
+              {renderRatioRow('Le dividende n\'a pas diminué depuis', infos.nbreannee)}
+            </div>
+            <div className="col-md-6 col-lg-4 mb-4">
+              <h5>Autre</h5>
+              {renderRatioRow('Buyback Yield', infos.buyback_yield)}
+              {renderRatioRow('Piotroski Score', infos.piotroski_score)}
+              {renderRatioRow('Rachat net d\'actions (Moy 5A)', formatNumber(infos.rachat_net_moyen))}
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>

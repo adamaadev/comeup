@@ -1,0 +1,30 @@
+export const questionsByCategory = {
+    produits: [
+        "Est-ce que les produits sont considérés comme essentiels ou indispensables pour les consommateurs ou clients ?",
+        "Est-ce que les produits sont achetés de manière régulière ou récurrente par les consommateurs ou les clients ?",
+        "Est-ce que les produits sont adoptés par une base diversifiée de clients ?",
+        "Est-ce que les produits sont proposés à des prix compétitifs ou bas ?",
+        "Est-ce que les produits sont résilients face aux évolutions du marché ou aux changements technologiques ?",
+        "Les ventes sont-elles prévisibles et régulières ? (Consommable, abonnement)"
+    ],
+    positionnement: [
+        "Les clients expriment-ils généralement une satisfaction élevée à l’égard des produits ou services de l’entreprise ?",
+        "L’entreprise propose-t-elle des produits ou services uniques, se démarquant clairement de la concurrence ?",
+        "L’entreprise est-elle leader dans son marché/industrie ?",
+        "L’entreprise fait-elle preuve de résilience face à la concurrence, en maintenant ou en renforçant sa position sur le marché malgré les pressions concurrentielles ?",
+        "L’entreprise peut-elle augmenter ses prix facilement, sans répercussions majeures ?",
+        "L’entreprise opère-t-elle à l’échelle internationale ?"
+    ],
+    management: [
+        "Est-ce que l’entreprise alloue efficacement son capital ? (Disponible sur le rapport de Morningstar).",
+        "L’entreprise est-elle facile à gérer ?",
+        "L’entreprise met-elle l’accent sur la qualité de ses produits ?",
+        "Le management de l’entreprise est-il compétent ?",
+        "Le management a-t-il un intérêt financier dans l’entreprise ? (Possède-t-il des parts, s’agit-il d’une entreprise familiale, le CEO possède-t-il des primes ou des bonus liés aux résultats de l’entreprise ?) ",
+        "Est-ce que l’entreprise privilégie les intérêts de ses actionnaires ? (Généreux programmes de retour aux actions, que ce soit des dividendes ou des rachats d’actions)"
+    ],
+    autres: [
+        "Est-ce que l’entreprise présente des perspectives de croissance significatives ?",
+        "Est-ce que l’entreprise opère dans un secteur en expansion ?"
+    ]
+};

@@ -1,0 +1,8 @@
+.table-container {
+    max-height: 500px; /* Définir la hauteur maximale souhaitée */
+    overflow-y: auto; /* Activer le défilement vertical */
+  }
+
+th{
+    position: fixed;
+  }

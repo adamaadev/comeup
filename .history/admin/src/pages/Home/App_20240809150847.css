@@ -1,0 +1,80 @@
+.app {
+    font-family: Arial, sans-serif;
+    text-align: center;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #f4f4f4;
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .auth-buttons button {
+    margin-left: 10px;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .connexion {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .inscription {
+    background-color: #28a745;
+    color: white;
+  }
+  
+  .main-content {
+    padding: 40px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .content {
+    max-width: 500px;
+  }
+  
+  h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  p {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
+  .chart img {
+    max-width: 500px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+  }
+  
+  .footer {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #f4f4f4;
+  }
+  
+  .social-media a {
+    margin: 0 15px;
+    text-decoration: none;
+    font-size: 18px;
+    color: #555;
+  }
+  

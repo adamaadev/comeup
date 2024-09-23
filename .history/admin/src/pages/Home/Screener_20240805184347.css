@@ -1,0 +1,13 @@
+.table-container {
+    max-height: 500px; /* Hauteur maximale du conteneur de table */
+    overflow-y: auto; /* Activer le défilement vertical */
+  }
+  
+  .table thead th {
+    position: sticky;
+    top: 0;
+    background-color: #343a40; /* Couleur de fond des en-têtes pour contraste */
+    color: #fff; /* Couleur du texte des en-têtes */
+    z-index: 1; /* Assurer que les en-têtes sont au-dessus du contenu */
+  }
+  

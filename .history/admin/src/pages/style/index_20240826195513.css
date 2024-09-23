@@ -1,0 +1,27 @@
+.active{
+    color: red;
+}
+
+  .table th {
+    height: 60px; /* Hauteur fixe pour les th */
+  }
+
+  td{
+    text-align: center;
+  }
+  @media (max-width: 768px) {
+    .table-responsive {
+      overflow-x: auto;
+    }
+  
+    .table th, .table td {
+      font-size: 14px;
+      height: auto;
+    }
+  
+    .company-logo {
+      width: 40px;
+      height: 40px;
+    }
+  }
+  

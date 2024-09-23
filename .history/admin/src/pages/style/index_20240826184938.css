@@ -1,0 +1,29 @@
+.active{
+    color: red;
+}
+/* Styles pour gérer les hauteurs et rendre le tableau responsive */
+.table th, .table td {
+    vertical-align: middle;
+    text-align: center;
+  }
+  
+  .table th {
+    height: 60px; /* Hauteur fixe pour les th */
+  }
+
+  @media (max-width: 768px) {
+    .table-responsive {
+      overflow-x: auto;
+    }
+  
+    .table th, .table td {
+      font-size: 14px;
+      height: auto;
+    }
+  
+    .company-logo {
+      width: 40px;
+      height: 40px;
+    }
+  }
+  

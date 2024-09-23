@@ -1,0 +1,88 @@
+.active{
+    color: red !important;
+}
+
+a , form{
+    margin-right: 150px;
+}
+
+td{
+    cursor: pointer;
+}
+
+.card-header div{
+    display: inline-block !important;
+}
+
+.card-header div:nth-child(2) button{
+    margin-left: 36rem;
+}
+
+/* Setting.css */
+.modal-open {
+    overflow: hidden;
+  }
+  
+  .modal.show {
+    animation: fadeIn 0.5s;
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  .modal.show .modal-dialog {
+    transform: translateY(-100%);
+    animation: slideDown 0.5s forwards;
+  }
+  
+  @keyframes slideDown {
+    to {
+      transform: translateY(0);
+    }
+  }
+  
+  /* Styles pour le pop-up et l'animation */
+.popup-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 1;
+  visibility: visible;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.popup-content {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+  transform: scale(0.7);
+  animation: popupAnimation 0.3s forwards;
+}
+
+@keyframes popupAnimation {
+  from {
+    transform: scale(0.7);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+
+*{
+  background-color: #edf2fc !important;
+}
+
+*

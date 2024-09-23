@@ -1,0 +1,19 @@
+import axios from "axios";
+import { useEffect , useState } from "react";
+
+export default function Gestion() {
+  const [users, setUsers] = useState([]);
+
+  useEffect(() => {
+    axios.get('http://localhost:4000/users')
+      .then(res => setUsers(res.data));
+  }, []);
+
+  return (
+    <div>
+        {users.map((user , index)=>(
+            <li key={index}>{user.username}  {user.email }</li>
+        ))}
+    </div>
+  )
+}

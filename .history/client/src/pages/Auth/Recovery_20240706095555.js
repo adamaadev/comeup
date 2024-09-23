@@ -1,0 +1,13 @@
+import React, { useState } from 'react'
+
+export default function ChangePassword() {
+ const [infos , setinfos] = useState({password : '' , newpassword : ''});
+  return (
+    <div>
+        <form>
+            <input type="password" name="password" onChange={change}/>
+            <input type="password" name="newpassword" onChange={change}/>
+        </form>
+    </div>
+  )
+}
